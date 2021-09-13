@@ -28,7 +28,7 @@ public class Arrays {
                     String wstart = scanner.next();
                     for (int i=0; i< words.length; i++) {
                         String word = words[i];
-                        if(word.startsWith("wstart")) {
+                        if(word.startsWith(wstart)) {
                             System.out.println("The word matching your filter is: "+words[i]);
                         }
                     }
@@ -38,7 +38,7 @@ public class Arrays {
                     String wend = scanner.next();
                     for (int i=0; i< words.length; i++) {
                         String word = words[i];
-                        if(word.endsWith("wend")) {
+                        if(word.endsWith(wend)) {
                             System.out.println("The word matching your filter is: "+words[i]);
                         }
                     }
@@ -48,7 +48,7 @@ public class Arrays {
                     String wcontains = scanner.next();
                     for (int i=0; i< words.length; i++) {
                         String word = words[i];
-                        if(word.contains("wcontains")) {
+                        if(word.contains(wcontains)) {
                             System.out.println("The word matching your filter is: "+words[i]);
                         }
                     }

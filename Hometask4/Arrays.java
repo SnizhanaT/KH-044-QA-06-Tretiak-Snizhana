@@ -18,7 +18,7 @@ public class Arrays {
                     int wlength = scanner.nextInt();
                     for (int i=0; i< words.length; i++) {
                         String word = words[i];
-                        if(word.length() == (wlength)) {
+                        if(word.length() <= wlength) {
                             System.out.println("The word matching your filter is: "+words[i]);
                         }
                     }

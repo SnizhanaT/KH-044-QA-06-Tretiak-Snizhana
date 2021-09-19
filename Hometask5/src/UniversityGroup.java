@@ -23,15 +23,15 @@ public class UniversityGroup {
         this.studentList = studentList;
     }
 
-    public UniversityGroup(String groupName, int startYear, int endYear) {
+    public UniversityGroup(String groupName, int startYear) {
         this.groupName = groupName;
         this.startYear = startYear;
-        this.endYear = endYear;
+        this.endYear = startYear+5;
     }
-    public UniversityGroup(String groupName, int startYear, int endYear, ArrayList<String> studentList) {
+    public UniversityGroup(String groupName, int startYear, ArrayList<String> studentList) {
         this.groupName = groupName;
         this.startYear = startYear;
-        this.endYear = endYear;
+        this.endYear = startYear+5;
         this.studentList = studentList;
     }
 

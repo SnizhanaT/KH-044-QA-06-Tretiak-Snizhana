@@ -1,10 +1,11 @@
 public class Geese extends DomesticAnimals {
 
-    public void GeeseDescription() {
-        System.out.println("Два веселих гусі");
-    }
     public Geese(String name, String color) {
         super(name, color);
+    }
+
+    public void describeGeese() {
+        System.out.println("Два веселих гусі");
     }
 
     @Override

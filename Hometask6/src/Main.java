@@ -5,17 +5,18 @@ public class Main {
 
 
         Geese geese = new Geese("Гуси", "різнокольорові");
-        geese.DomesticDescription();
-        geese.GeeseDescription();
+        geese.describeDomestic();
+        geese.describeGeese();
 
         Geese goose1 = new Geese("Один", "сірий");
         goose1.getDomesticAnimalsDescription();
 
         Geese goose2 = new Geese("Другий", "білий");
         goose2.getDomesticAnimalsDescription();
-        geese.GeeseDescription();
+        geese.describeGeese();
 
-        geese.voice(); geese.voice();
+        goose1.voice();
+        goose2.voice();
 
         Lion lion = new Lion();
         lion.count = 20000;
